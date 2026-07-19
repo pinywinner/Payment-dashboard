@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Payment Dashboard — Asraf Project</title>
+<meta name="description" content="Vendor payments &amp; cash flow tracking for the Asraf Project.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://YOURSITE.com/asraf/">
+<meta property="og:title" content="Payment Dashboard — Asraf Project">
+<meta property="og:description" content="Vendor payments &amp; cash flow tracking.">
+<meta property="og:image" content="https://YOURSITE.com/asraf/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<script>
+window.CLIENT = {
+  projectName: 'Asraf Project',
+  subtitle: 'Tracking and detailing cash flows, and analyzing expenses with vendors and contractors.',
+  // --- Option A: one sheet per client (published CSV) ---
+  sheetId: 'PASTE_THE_SHEET_ID_HERE',
+
+  // --- Option B: one master sheet for all clients (Apps Script) ---
+  // Uncomment these two and delete sheetId above.
+  // apiUrl: 'https://script.google.com/macros/s/AKfy..../exec',
+  // token:  'PASTE_THIS_CLIENTS_TOKEN',
+
+  dateFormat: 'DMY',
+  blockOnMismatch: false
+};
+</script>
+<script src="/shared/boot.js"></script>
+</head>
+<body></body>
+</html>
